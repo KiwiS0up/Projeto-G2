@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+p {
+    font-size: 25px ; 
+    margin-left: 20px ; 
+    margin-right: 10px; 
+    background-color:#e9b1c2; 
+    color: #20223f; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border-radius: 6px;
+   
+}
+
+p  a {
+    background-color: #CCA8E9; 
+    text-decoration: none;
+    color: #36374b
+   } 
+
+.linha {
+    background-color: #432C7A;
+    height: 5px;
+}
+ 
+h1 {
+    color: rgba(15, 15, 15, 0.836);
+    background-color: #CCA8E9; 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: #432C7A;
+    font-size: 25px ; 
+    margin-left: 20px ; 
+    margin-right: 10px; 
+    color: white; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border-radius: 6px;
+   
+
+}
+
+.menuzin{
+    height: 78px;
+    background-color: #36374b;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_conteudo {
+    display: flex;
+    background-color: #36374b;
+    list-style: none;
+}
+
+.menu_conteudo li {
+    cursor: pointer;
+    float: left;
+    padding: 20px 15px;
+}
+
+.menu_conteudo a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    margin-right: 30px;
+}
+
+
+.audio{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.final {
+    background-color: #36374b;
+    height: 50px;
+    text-align: center;
+}
+
+body {
+    margin-top: 90px;
+}
+
+nav * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+nav ul li a{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+nav ul {
+    background-color: rgba(56, 56, 56, 0.561);
+    text-align: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+    font-size: 12pt;
+}
+
+nav ul li {
+    background-color: rgba(56, 56, 56, 0.561);
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    position: relative;
+    width: 100px;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: #523791;
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li:hover .submenu{
+    display: block;
+    min-width: 300px ;
+}
+
+.submenu a{
+    background-color: #724cad;
+    box-shadow: 0px 15px 25px 0px rgb(0, 0, 0);
+    padding: 30px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.submenu a:hover{
+    background-color: rgb(149, 111, 237);
+    padding: 30px;
+    display: block;
+}
+
+footer {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: #CCA8E9;
+    color: white;
+    clear: both;
+}
+
+footer span {
+    font-size: x-large;
+}
+
+
+.cores {
+    /* COR DO FUNDO DA BARRA DE NAVEGAÇÃO */
+    background-color: rgba(56, 56, 56, 0.561);
+    /* COR DO FUNDO DOS ITENS DO MENU */
+    background-color: blueviolet;
+    /* COR DO FUNDO DOS ITENS DO MENU */
+    background-color: blueviolet;
+    /* COR DO FUNDO DOS ITENS DO MENU EM HOVER */
+    background-color: rgb(185, 115, 251);
+    /* COR DO FUNDO DOS ITENS DO SUB-MENU */
+    background-color: rgb(29, 115, 235);
+    /* COR DO FUNDO DOS ITENS DO SUB-MENU EM HOVER */
+    background-color: rgb(149, 111, 237);
+    /* SOMBRA PARA OS ITENS DO SUB-MENU */
+    box-shadow: 0px 15px 25px 0px rgb(0, 0, 0);
+    /* COR DA BORDA DE CADA POST */ 
+    border: 2px solid rgb(149, 111, 237);
+    /* COR DO FUNDO DO HEADER DOS POSTS */
+    background-color: rgb(173, 138, 254);
+    /* COR DO FUNDO DO HEADER DO FOOTER */
+    background-color: rgb(173, 138, 254);
+}
